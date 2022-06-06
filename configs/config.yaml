@@ -1,0 +1,8 @@
+max_threads: 5
+log_path: log.txt
+
+crawlers:
+  HtmlCrawler:
+    pattern: www.runoob.com/go/[^\s]*.html
+    save_root: html_results
+    max_deepth: 30
